@@ -34,10 +34,10 @@ _The agent reads this on startup and updates it when it learns something worth k
 - `/Users/kimbot/openclaw-brain/` - central brain repo (GitHub-synced)
 
 ## Infrastructure
-- Mac mini IP: 192.168.1.105 (local) / Tailscale IP: TBD
-- SSH: pending setup (sudo required)
-- Screen Sharing: pending setup (sudo required)
-- Tailscale: pending install (sudo required)
+- Mac mini IP: 192.168.1.105 (local) / Tailscale IP: 100.75.144.127
+- SSH: ✅ enabled
+- Screen Sharing: ✅ enabled
+- Tailscale: ✅ installed (kims-mac-mini / NEOunplugged4me@)
 - Wispr Flow: installed
 
 ## Session Notes
