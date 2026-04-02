@@ -3,10 +3,25 @@
   "platform": "base44.com",
   "role": "Primary execution agent with division sub-agents",
   "status": "active",
+  "agent_id": "69bdbdee59e2e4c5ae0e04c9",
   "api": {
-    "base_url": "https://base44.com/api",
-    "app_id": "TODO: add your Base44 app ID here",
-    "api_key_env": "BASE44_API_KEY"
+    "agent_url": "https://app.base44.com/api/agents/69bdbdee59e2e4c5ae0e04c9",
+    "api_key_env": "BASE44_API_KEY",
+    "auth": "TODO: get API key from Base44 dashboard or support"
+  },
+  "connection_methods": {
+    "backend_function": {
+      "description": "Create a Base44 backend function that exposes an HTTP endpoint for OpenClaw to call",
+      "status": "TODO"
+    },
+    "whatsapp_bridge": {
+      "description": "Send commands to the agent via WhatsApp Business API",
+      "status": "TODO"
+    },
+    "cli_sync": {
+      "description": "Use Base44 CLI to pull/push agent configs to this repo",
+      "status": "TODO"
+    }
   },
   "sub_agents": {
     "insurance-ops": {
