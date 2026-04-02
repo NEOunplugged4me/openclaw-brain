@@ -1,0 +1,29 @@
+{
+  "name": "base44superagent",
+  "platform": "base44.com",
+  "role": "Primary execution agent with division sub-agents",
+  "status": "active",
+  "api": {
+    "base_url": "https://base44.com/api",
+    "app_id": "TODO: add your Base44 app ID here",
+    "api_key_env": "BASE44_API_KEY"
+  },
+  "sub_agents": {
+    "insurance-ops": {
+      "role": "Manage insurance operations — annuities, DB pensions, health, cafeteria 125, SPLTZI",
+      "status": "planned"
+    },
+    "marketing-growth": {
+      "role": "Lead gen, cross-sell campaigns, SIMERP machine, client outreach",
+      "status": "planned"
+    },
+    "finance-admin": {
+      "role": "Bookkeeping, compliance, reporting, payroll",
+      "status": "planned"
+    },
+    "tech-automation": {
+      "role": "Infrastructure, integrations, automations, dev ops",
+      "status": "planned"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "openclaw-brain",
+  "version": "0.1.0",
+  "owner": "Spencer F",
+  "operator": "Kim (OpenClaw)",
+  "description": "Central command hub — one brain to control all AI agents and digital assets",
+  "agents": {
+    "base44superagent": {
+      "platform": "base44.com",
+      "type": "primary-executor",
+      "status": "active",
+      "config_path": "./agents/base44super/config.json"
+    }
+  },
+  "divisions": [
+    "insurance-ops",
+    "marketing-growth",
+    "finance-admin",
+    "tech-automation"
+  ],
+  "integrations": {
+    "telegram": true,
+    "github": true,
+    "base44": true
+  }
+}
