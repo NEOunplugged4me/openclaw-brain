@@ -1,0 +1,10 @@
+venv/
+.pi/
+tasks.db
+node_modules/
+tools/.cache/
+tools/node_modules/
+tools/package-lock.json
+tools/package.json
+tools/screenshot-*.png
+.DS_Store

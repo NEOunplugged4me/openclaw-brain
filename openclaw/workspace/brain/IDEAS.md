@@ -1,0 +1,3 @@
+- btw: Explore a secure, one-way remote access workflow from laptop to Mac mini via SSH + Screen Sharing, ensuring no back-connection to host laptop. Include optional Tor/Tailscale VPN for external access, plus a policy for on-demand access prompts and audit logs. Implement a simple, per-session access token prompt to authorize OpenClaw actions on the remote host without exposing device credentials. 
+- Propose a 2-phase rollout: Phase 1 – local home-network access with fixed IP, Phase 2 – remote access via VPN (TAILSCALE) and fine-grained access controls. 
+- Consider building a lightweight dashboard showing active sessions, last access time, and current permission level for security visibility.

@@ -1,0 +1,21 @@
+# Secrets — never commit
+*.env
+credentials.json
+token.json
+device-auth.json
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+
+# OS
+.DS_Store
+*.log
+
+# Browser data
+.chromium-browser-snapshots/
+browser/
+
+# Database files
+*.db
